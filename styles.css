@@ -60,11 +60,14 @@ h1 {
 h1, h2, h3 {
     font-family: "Fraunces", serif;
     font-weight: 800;
-    /* padding: 20px 0; */
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 1.9em;
+}
+
+.section-three h2 {
+    font-size: 1.6em;
 }
 
 img {
@@ -96,7 +99,7 @@ img {
     text-transform: uppercase;
     font-family: "Fraunces", serif;
     font-weight: 900;
-    font-size: 1em;
+    font-size: .9em;
     letter-spacing: .1em;
     padding: 0 20px;
 }
@@ -105,12 +108,14 @@ img {
     border-bottom: 10px solid hsl(51, 100%, 49%, .3);
     display: inline-block;
     height: 0.7em;
+    padding: 0 .5em;
    }
 
 .section-one-b span {
     border-bottom: 10px solid hsl(7, 99%, 70%, .3);
     display: inline-block;
     height: 0.7em;
+    padding: 0 .5em;
    }
 
 
@@ -178,7 +183,7 @@ img {
     text-transform: uppercase;
     color: hsla(210,4%,67%,1);
     letter-spacing: .3em;
-    font-size: .8em;
+    font-size: .85em;
     padding-bottom: 40px;
 }
 
@@ -188,8 +193,8 @@ img {
 
 .section-four .client-profile .client-name {
     font-family: "Fraunces", serif;
-    font-weight: 700;
-    font-size: 18px;
+    font-weight: 900;
+    font-size: 1em;
     color: hsl(212, 27%, 19%);
 }
 
@@ -200,7 +205,7 @@ img {
 }
 
 .section-four .client-profile p.client-title {
-    font-size: .75em;
+    font-size: .8em;
     padding: 4px 0;
     color: hsl(210, 4%, 67%, .9);
 }
@@ -244,7 +249,7 @@ footer {
 
 footer img {
     display: block;
-    width: 50%;
+    width: 55%;
     margin-left: auto;
     margin-right: auto; 
 }
@@ -259,7 +264,7 @@ footer img {
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    padding: 36px 0 80px 0;
+    padding: 44px 0 88px 0;
 }
 
 .section-footer .social-icons {
@@ -269,6 +274,7 @@ footer img {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 24px;
 }
 
 .section-footer .social-icons img {
