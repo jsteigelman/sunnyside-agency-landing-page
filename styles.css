@@ -19,7 +19,7 @@ body {
     flex-direction: column;
     justify-content: space-around;
     max-width: 100%;
-    font-size: 18px;
+    font-size:0;
 }
 
 .section-header .navbar {
@@ -43,6 +43,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 24px;
 }
 
 .section-header .down-arrow {
@@ -238,6 +239,7 @@ img {
 .section-five {
     display: flex;
     flex-direction: column;
+    font-size: 0;
 }
 
 .section-five .section-five-row {
@@ -297,6 +299,7 @@ footer img {
 
 @media only screen and (min-width: 576px)  {
 
+
     img {
         flex-grow: 0;
         flex-basis: 0;
@@ -321,10 +324,6 @@ footer img {
         transform: translateY(-50%);
     }
 
-    .section-header h1 {
-        font-size: 2.9em;
-    }
-
     .section-header .down-arrow {
         width: 4%;
         height: auto;
@@ -340,6 +339,15 @@ footer img {
         width: 100%;
         display: flex;
         flex-direction: row-reverse;
+    }
+
+    .section-one-image-container {
+        height: 600px;
+    }
+
+    .section-one-image-container img {
+        height: 100%;
+        object-fit: cover;
     }
 
     .section-one-a div {
@@ -391,11 +399,9 @@ footer img {
     }
 
     .section-three p {
-        line-height: 1.9em;
-        padding-top: 24px;
+        line-height: 1.4em;
         margin-left: auto;
         margin-right: auto;
-        width: 60%;
         opacity: 0.9;
     }
 
@@ -407,6 +413,14 @@ footer img {
     .orange-photography-container {
         flex-basis: 0;
         flex-grow: 1;
+    }
+
+    .section-three .orange-photography-container .orange-photography-content {
+        padding: 24px;
+    }
+
+    .section-three .cherries-container .cherries-content {
+        padding: 24px;
     }
 
     .section-four h4 {
@@ -483,6 +497,35 @@ footer img {
 
 @media only screen and (min-width: 1040px)  {
     
-   
+    .section-header h1 {
+        font-size: 2.25em;
+    }
+
+    .section-three p {
+        line-height: 1.9em;
+        padding-top: 24px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        opacity: 0.9;
+    }
+
+    .section-three .orange-photography-container .orange-photography-content {
+        padding: 64px;
+    }
+
+    .section-three .cherries-container .cherries-content {
+        padding: 64px;
+    }
+    
+    .section-one-image-container {
+        height: auto;
+    }
+
+    .section-one-image-container img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
 
 }
