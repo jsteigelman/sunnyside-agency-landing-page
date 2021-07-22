@@ -2,6 +2,9 @@
 
 This is a solution to the [Sunnyside agency landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
+![desktop-preview](https://user-images.githubusercontent.com/65603938/126646545-3dc80b3e-1f91-458a-aadc-43c450872e36.jpg)
+
+
 ## Table of contents
 
 - [Overview](#overview)
