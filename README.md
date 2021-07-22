@@ -21,7 +21,7 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS
-- Javascript
+- JavaScript
 - Flexbox
 - Mobile-first workflow
 - Responsive design
