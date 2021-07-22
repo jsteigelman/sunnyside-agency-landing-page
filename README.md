@@ -15,7 +15,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: https://frosty-clarke-478aef.netlify.app/
+- Live Site URL: [https://frosty-clarke-478aef.netlify.app/](url){:target="_blank"}
 
 ### Built with
 
