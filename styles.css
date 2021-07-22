@@ -218,6 +218,10 @@ img {
   color: hsl(212, 27%, 19%);
 }
 
+.section-one {
+    background-color: hsl(20, 100%, 99%, 1);
+}
+
 .section-one p {
   color: hsl(212, 27%, 19%, 0.5);
 }
@@ -648,8 +652,29 @@ footer a {
   .section-footer {
     margin-left: auto;
     margin-right: auto;
-    width: 20%;
   }
+
+  .section-footer img {
+    width: 120px;
+  }
+
+  .section-footer ul {
+    width: 264px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section-footer .social-icons {
+      width: 200px;
+  }
+
+  .section-footer social-icons img {
+    width: 24px;
+    height: auto;
+    padding: 0 2px;
+  }
+
+
 }
 
 @media only screen and (min-width: 1040px) {
