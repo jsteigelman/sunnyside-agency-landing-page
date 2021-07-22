@@ -29,16 +29,31 @@
         color: hsl(228, 45%, 44%);
       }
     </style>
+    <script>
+      function toggleNavDropDown() {
+        var x = document.getElementById("myLinks");
+        var y = document.getElementById("myNavBackground");
+        if (x.style.display === "block")
+         {
+          x.classList.toggle('hide');
+          y.classList.toggle('hide');
+        } else {
+          x.classList.toggle('show');
+          y.classList.toggle('show');
+        }
+      }
+
+    </script>
   </head>
   <body>
     <div class="section-header">
       <picture>
         <source
-          media="(min-width: 576px)"
+          media="(min-width: 620px)"
           srcset="images/desktop/image-header.jpg"
         />
         <source
-          media="(min-width: 100px)"
+          media="(min-width: 90px)"
           srcset="images/mobile/image-header.jpg"
         />
         <img
@@ -47,8 +62,27 @@
         />
       </picture>
       <div class="navbar">
-        <img src="images/logo.svg" alt="logo" />
-        <img src="images/icon-hamburger.svg" alt="mobile drop-down menu" />
+        <div class="logo">
+          <img src="images/logo.svg" alt="logo"/>   
+        </div>
+
+        <div class="topnav" id="myTopnav">
+          <a href="javascript:void(0);" class="icon" onclick="toggleNavDropDown()">
+            <img src="images/icon-hamburger.svg" alt="mobile drop-down menu" />
+          </a>
+          <div id="myLinks" class="nav-link-container" onclick="toggleNavDropDown()">
+            <div class="inner-nav-link-container">
+              <a href="#contact" class="contact"><span>Contact</span></a>
+              <a href="#projects">Projects</a>
+              <a href="#services">Services</a>
+              <a href="#about">About</a>
+            </div>
+          </div>
+          </a>
+        </div>
+        <div id="myNavBackground" class="nav-background" onclick="toggleNavDropDown()">
+        </div>
+
       </div>
 
       <div class="intro">
@@ -70,7 +104,7 @@
             alt="orange on blue background"
           />
         </div>
-        <div class="content-section">
+        <div class="content-section" id="about">
           <div class="inner-content-section">
             <h2>Transform your brand</h2>
             <p>
@@ -108,11 +142,11 @@
       </div>
     </div>
 
-    <div class="section-three">
+    <div class="section-three" id="services">
       <div class="cherries-container">
         <picture>
           <source
-            media="(min-width: 376px)"
+            media="(min-width: 620px)"
             srcset="images/desktop/image-graphic-design.jpg"
           />
           <source
@@ -142,7 +176,7 @@
       <div class="orange-photography-container">
         <picture>
           <source
-            media="(min-width: 376px)"
+            media="(min-width: 620px)"
             srcset="images/desktop/image-photography.jpg"
           />
           <source
@@ -168,7 +202,7 @@
       </div>
     </div>
 
-    <div class="content-section">
+    <div class="content-section" id="projects">
       <div class="section-four">
         <h4>Client testimonials</h4>
         <div class="client-profile-row">
@@ -209,7 +243,7 @@
       <div class="section-five-row">
         <picture>
           <source
-            media="(min-width: 376px)"
+            media="(min-width: 620px)"
             srcset="images/desktop/image-gallery-milkbottles.jpg"
           />
           <source
@@ -224,7 +258,7 @@
 
         <picture>
           <source
-            media="(min-width: 376px)"
+            media="(min-width: 620px)"
             srcset="images/desktop/image-gallery-orange.jpg"
           />
           <source
@@ -241,7 +275,7 @@
       <div class="section-five-row">
         <picture>
           <source
-            media="(min-width: 376px)"
+            media="(min-width: 620px)"
             srcset="images/desktop/image-gallery-cone.jpg"
           />
           <source
@@ -255,7 +289,7 @@
         </picture>
         <picture>
           <source
-            media="(min-width: 376px)"
+            media="(min-width: 620px)"
             srcset="images/desktop/image-gallery-sugarcubes.jpg"
           />
           <source
@@ -272,15 +306,15 @@
   </body>
 
   <footer>
-    <div class="section-footer">
+    <div class="section-footer" id="contact">
       <img src="images/logo.svg" alt="logo" class="filter-logo" />
       <ul>
-        <li><a>About</a></li>
-        <li><a>Services</a></li>
-        <li><a>Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
       </ul>
       <div class="social-icons filter-icon">
-        <img src="images/icon-facebook.svg" alt="Facebook icon"/>
+        <img src="images/icon-facebook.svg" alt="Facebook icon" />
         <img src="images/icon-instagram.svg" alt="Instagram icon" />
         <img src="images/icon-twitter.svg" alt="Twitter icon" />
         <img src="images/icon-pinterest.svg" alt="Pinterest icon" />
