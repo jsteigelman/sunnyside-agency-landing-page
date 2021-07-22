@@ -4,14 +4,6 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
 
 <img src="https://user-images.githubusercontent.com/65603938/126646545-3dc80b3e-1f91-458a-aadc-43c450872e36.jpg" alt="desktop-preview" width="800"/>
 
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Links](#links)
-  - [Built with](#built-with)
-
-
 ## Overview
 
 ### The challenge
