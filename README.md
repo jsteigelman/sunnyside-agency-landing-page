@@ -4,20 +4,18 @@ This is [my solution](https://frosty-clarke-478aef.netlify.app/) to the [Sunnysi
 
 <img src="https://user-images.githubusercontent.com/65603938/126646545-3dc80b3e-1f91-458a-aadc-43c450872e36.jpg" alt="desktop-preview" width="800"/>
 
-## Overview
-
-### The challenge
+## The challenge
 
 Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-### Links
+## Links
 
 - Live Site URL: https://frosty-clarke-478aef.netlify.app/
 
-### Built with
+## Built with
 
 - Semantic HTML5 markup
 - CSS
